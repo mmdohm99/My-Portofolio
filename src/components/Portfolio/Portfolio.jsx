@@ -10,7 +10,6 @@ import P5 from "../../img/5.jpg";
 import P6 from "../../img/6.jpg";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
- 
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -74,7 +73,7 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <a
-            href="https://lambent-kataifi-b3e385.netlify.app/product/huarache-x-stussy-le"
+            href="https://lambent-kataifi-b3e385.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
