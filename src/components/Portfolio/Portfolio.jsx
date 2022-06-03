@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { Autoplay, Pagination, Navigation } from "swiper";
 import P1 from "../../img/1.jpg";
 import P2 from "../../img/2.jpg";
 import P3 from "../../img/3.jpg";
@@ -21,8 +22,16 @@ const Portfolio = () => {
       {/* slider */}
 
       <Swiper
+        modules={[Autoplay, Pagination, Navigation]}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        navigation={true}
         spaceBetween={350}
         slidesPerView={1}
+        scrollbar={{ draggable: true }}
+        pagination={{ clickable: true }}
         grabCursor={true}
         className="portfolio-slider"
       >

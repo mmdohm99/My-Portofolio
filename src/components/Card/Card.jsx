@@ -11,7 +11,7 @@ const Card = ({ emoji, heading, detail, color }) => {
       style={{ background: darkMode ? "white" : "", borderColor: { color } }}
     >
       <img src={emoji} alt="" />
-      <span>{heading}</span>
+      <span style={{ color: "black" }}>{heading}</span>
       <span>{detail}</span>
     </div>
   );
