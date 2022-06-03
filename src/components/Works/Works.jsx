@@ -20,11 +20,11 @@ const Works = () => {
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: darkMode ? "white" : "" }}>
+          <span style={{ color: darkMode ? "white" : "", paddingLeft: "10px" }}>
             Use all of these Tools
           </span>
-          <span>Tools & Technologies</span>
-          <span style={{ color: darkMode ? "white" : "" }}>
+          <span style={{ paddingLeft: "10px" }}>Tools & Technologies</span>
+          <span style={{ color: darkMode ? "white" : "", padding: "15px" }}>
             I use the latest tools and technologies to build the best UI
             <br />
             and UX within the best time possible and the best performance Apps
@@ -35,7 +35,9 @@ const Works = () => {
             As they say, "Good Apps Makes Easier Live "
           </span>
           <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
+            <button style={{ marginLeft: "10px" }} className="button s-button">
+              Hire Me
+            </button>
           </Link>
           <div
             className="blur s-blur1"

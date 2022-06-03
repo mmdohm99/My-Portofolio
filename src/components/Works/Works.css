@@ -117,8 +117,9 @@
   .works {
     flex-direction: column;
     height: 55rem;
-    padding: 0;
-    gap: 5rem;
+    padding: 2%;
+    gap: 3rem;
+    margin: auto;
   }
 
   .w-right {
