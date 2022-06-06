@@ -6,7 +6,7 @@ import Glasses from "../../img/target.png";
 import Humble from "../../img/presentation.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from "./resume.pdf";
+import MohamedMamdouh_CV from "./Mohamed-Mamdouh MERN.pdf";
 
 const Services = () => {
   // context
@@ -33,7 +33,7 @@ const Services = () => {
           <br />
           Using the latest tools and technologies
         </span>
-        <a href={Resume} download>
+        <a href={MohamedMamdouh_CV} download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
