@@ -9,6 +9,7 @@ import P3 from "../../img/3.jpg";
 import P4 from "../../img/4.jpg";
 import P5 from "../../img/5.jpg";
 import P6 from "../../img/6.jpg";
+import P7 from "../../img/ligaInsider.jpg";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -87,6 +88,15 @@ const Portfolio = () => {
             rel="noreferrer"
           >
             <img src={P3} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a
+            href="https://lambent-kataifi-b3e385.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={P7} alt="" />
           </a>
         </SwiperSlide>
       </Swiper>

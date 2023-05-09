@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { themeContext } from "../../Context";
 import "./Works.css";
 import Upwork from "../../img/react.png";
-import Fiverr from "../../img/vue.jpeg";
+import Fiverr from "../../img/nextjs_2_60.jpg";
 import MUI from "../../img/mui.png";
 import jS from "../../img/js.jpg";
 import HTML from "../../img/HTML.png";

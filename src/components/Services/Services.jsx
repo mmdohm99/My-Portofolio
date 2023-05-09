@@ -6,7 +6,7 @@ import Glasses from "../../img/target.png";
 import Humble from "../../img/presentation.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import MohamedMamdouh_CV from "./Mohamed-Mamdouh MERN.pdf";
+import MohamedMamdouh_CV from "./Mohamed-Mamdouh FE Developer.pdf";
 
 const Services = () => {
   // context
